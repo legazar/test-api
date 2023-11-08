@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    text-decoration: none;
+
+}
+/* barre de navigation*/
+body header{
+    justify-content: center;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+header{
+    background-color: rgb(56, 146, 101);
+}
+header p{
+    margin-right: 30rem;
+    font-size: 30px;
+}
+form{
+    display: flex;
+}
+header form  .submit{
+    width: 6rem;
+    border-radius: 0px 15px 15px 0px;
+    height: 3rem;
+}
+header form .search{
+    width: 15rem;
+    border-radius: 15px 0px 0px 15px;
+    height: 3rem;
+    padding-left: 10px;
+    background-color: rgba(144, 241, 135, 0.733)
+}
+
+/* gestion des cartes*/
+
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div .product{
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+.product img{
+    width: 300px;
+}
+.product p{
+    font-size: 20px;
+}
